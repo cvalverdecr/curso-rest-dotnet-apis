@@ -3,7 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
   <ItemGroup>
-    <Content Remove="WebServer\Properties\launchSettings.json" />
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 </Project>
